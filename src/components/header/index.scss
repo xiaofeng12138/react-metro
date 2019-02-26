@@ -1,0 +1,35 @@
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 1.1rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    .h-left{
+        img{
+            display: block;
+            width: 1rem;
+            height: 0.6rem;
+            margin-left: 0.3rem;
+        }
+    }
+    .h-logo{
+         img{
+            display: block;
+            width: 2.2rem;
+            height: 0.5rem;
+            margin-left: 1.3rem;
+        }
+    }
+    .h-right{
+        display: flex;
+        margin-left: 0.93rem;
+        span{
+            display: block;
+            font-size: 0.3rem;
+            margin:0 0.05rem;
+        }
+    }
+}

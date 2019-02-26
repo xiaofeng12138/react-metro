@@ -1,0 +1,30 @@
+.tabbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 1rem;
+    background-color: #fff;
+    z-index: 999;
+    width: 100%;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        li{
+         flex: 1;
+           margin-top: 0.05rem;
+           margin-left: 0.35rem;
+           height: 0.9rem;
+            float: left;
+            line-height: 0.9rem;
+            a{
+                height: 100%;
+                img{
+                   width: 0.9rem; 
+                   height: 0.9rem;
+                }
+            }
+        }
+        
+    }
+}

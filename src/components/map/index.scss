@@ -1,0 +1,139 @@
+.map1{
+  .xf{
+    position: fixed;
+    right:0;
+    left: 0;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    bottom: 3.5rem;
+    height: 2.6rem;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 999;
+    .line{
+      margin: 0;
+      display: flex;
+      align-items: center;
+      margin-left: 0.3rem;
+      margin-right: 0.3rem;
+      .line-left{
+         ul{
+           li{
+             display: flex;
+             align-items: center;
+             margin-left: 0.5rem;
+             i{
+               display: block;
+               width: 0.2rem;
+               height: 0.2rem;
+               background-color: red;
+               border-radius: 50%;
+             }
+             .green{
+                background-color: green;
+             }
+              .green1{
+               font-weight: normal;
+               color:#bbb;
+             }
+             span{
+               display: block;
+               width: 4.3rem;
+               height: 0.7rem;
+               margin-left: 0.2rem;
+               font-size: 0.25rem;
+               line-height: 0.7rem;
+               color: #080808;
+               font-weight: bold;
+               border-bottom: 1px solid #ccc;
+               //border-bottom: 10px solid #ccc;
+             }
+           }
+         }
+      }
+      .line-right{
+        margin-left: 0.2rem;
+        i{
+          font-size: 1.5rem;
+        }
+      }
+      
+    }
+    .introduce{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 0.15rem;
+        display: flex;
+        height: 0.6rem;
+        // background-color: skyblue;
+        span{
+          display: flex;
+          align-items: center;
+          margin-right: 0.3rem;
+          i{
+             width: 0.5rem;
+             height: 0.5rem;
+             color: #000;
+             font-size: 0.5rem;
+             margin-right: 0.1rem;
+          }
+          p{
+            display: block;
+            font-size: 0.3rem;
+          }
+        }
+        .span{
+          width: 1.8rem;
+          height: 0.6rem;
+          background-color: #565DA5;
+          font-size: 0.3rem;
+          text-align: center;
+          line-height: 0.6rem;
+          color: #fff;
+          border-radius: 20px;
+          margin-left: 0.3rem;
+        }
+      }
+
+    .details{
+     height: 1.5rem;
+     margin-top: 0.5rem;
+     background-color: #fff;
+     border-radius: 10px;
+     ul{ 
+       display: flex;
+       line-height: 50%;
+       
+       li{
+         flex: 1;
+         height: 1.5rem;
+         display: flex;
+         align-items: center;
+         text-align: center;
+         a{
+           display: block;
+           margin: auto;
+           i{
+             display: block;
+             font-size: 0.35rem;
+             text-align: center;
+             color: #080808;
+           }
+           p{
+             font-size: 0.25rem;
+             text-align: center;
+             color: #080808;
+           }
+         }
+       }
+     }
+   }
+   }
+   
+  .map{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative; 
+ }
+}

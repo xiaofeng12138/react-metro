@@ -1,0 +1,101 @@
+.discovery{
+    p{  
+        margin-left: 0.2rem;
+        margin-top: 0.2rem;
+        font-size: 0.5rem;
+    }
+    ul{
+      margin: 0.3rem;
+        li{
+          a{
+              img{
+                  height: 3.9rem;
+                   border-radius: 10px;
+              }
+           }
+        }
+    }
+    .d-cotegory{
+        ul{
+            height: 1.7rem;
+            margin: 0;
+            display: flex;
+            border-bottom: 2px solid #f3f4f4;
+            border-top:2px solid #f3f4f4;
+            li{
+              flex: 1;
+              text-align: center;
+              margin: auto;
+              a{
+                span{
+                    display: block;
+                    width: 0.4rem;
+                    height: 0.4rem;
+                    margin: auto;
+                   i{
+                       display: block;
+                       width: 0.4rem;
+                       height: 0.4rem;
+                       color: #F93163;
+                       font-size: 0.4rem;
+                   }
+               }
+               p{
+                   margin: 0;
+                   margin-top: 0.2rem;
+                   font-size: 0.25rem;
+                   color:rgba(0,0,0,6)
+               }
+              }
+            }
+        }
+    }
+    .d-recommend{
+        height: 3.3rem;
+        border-bottom: 2px solid #f3f4f4;
+        a{
+            img{
+                margin: 0.2rem;
+                border-radius: 10px;
+                height: 2.6rem;
+            }
+        }
+    }
+    .d-aqiyi{
+        height: 4.4rem;
+        border-bottom: 2px solid #f3f4f4;
+       ul{
+           display: flex;
+           justify-content: space-between;
+           li{
+               img{
+                   display: block;
+                   width: 3.3rem;
+                   height: 2.5rem;
+                   border-radius: 0.1rem;
+               }
+               span{
+                   margin-top: 0.2rem;
+                   display: block;
+                   font-size: 0.3rem;
+                   font-weight: bold;
+               }
+           }
+       }
+    }
+    .d-travel{
+        margin-bottom: 1.5rem;
+        ul{
+         margin: 0.3rem;
+            li{
+                margin-top: 0.4rem;
+                margin-bottom: 0.4rem;
+                img{
+                  width: 100%;
+                  height: 3.8rem;
+                  border-radius: 10px;
+                }
+            }
+        }
+    }
+}
